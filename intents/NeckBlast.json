@@ -1,0 +1,80 @@
+{
+    "name": "NeckBlast",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "NeckBlastAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Neck Blast chawal ki ek serious fungal disease hai jo Magnaporthe oryzae fungus ki wajah se hoti hai.",
+              "Is bimari mein plant ke neck ya panicle (dhan ki gali) par brown ya blackish lesions ban jati hain.",
+              "Severe infections ke case mein dhan ka sara panicle sukha aur toot jata hai, jo yield ko drastically kam kar deta hai.",
+              "Neck Blast zyadatar warm aur humid climates mein zyada hoti hai, especially jab excessive nitrogen fertilizer use kiya jaye.",
+              "Is disease ko control karne ke liye resistant chawal varieties ka istemal karein aur timely fungicides spray karein.",
+              "Irrigation aur fertilizer ka sahi management bhi Neck Blast ko control karne mein madadgar hota hai."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Neck Blast kya hoti hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Neck Blast ke symptoms kya hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Neck Blast ka ilaj kya hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Neck Blast se fasal kaise bachai ja sakti hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Neck Blast ki wajah kya hoti hai?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  

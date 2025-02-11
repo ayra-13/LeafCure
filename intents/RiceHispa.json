@@ -1,0 +1,80 @@
+{
+    "name": "RiceHispa",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "RiceHispaAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Rice Hispa chawal ke leaf-feeding pests ka ek issue hai jo zyadatar South Asia aur tropical areas mein hota hai.",
+              "Is pest ka scientific naam Dicladispa armigera hai. Ye pest leaves ko skeletonize karta hai aur photosynthesis ko disrupt karta hai.",
+              "Rice Hispa ke symptoms mein yellowing aur white streaks leaf ke surface par dekhi jati hain. Severe infestations ke case mein leaves brown aur dry ho jati hain.",
+              "Is problem ko manage karne ke liye timely pest scouting aur insecticides ka sahi istamal zaroori hai.",
+              "Natural predators jese ki parasitic wasps ka use bhi Rice Hispa ko control karne mein helpful hota hai.",
+              "Flooding aur water management practices ke zariye bhi pest infestations ko kam kiya ja sakta hai."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Rice Hispa kya hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Rice Hispa ke symptoms kya hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Rice Hispa ko kaise control karte hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Rice Hispa ka ilaj batao.",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Rice Hispa pest se kaise bacha jaye?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  

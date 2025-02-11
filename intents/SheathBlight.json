@@ -1,0 +1,81 @@
+ {
+    "name": "SheathBlight",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "SheathBlightAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Sheath Blight chawal ka ek fungal disease hai jo Rhizoctonia solani fungus ki wajah se hota hai.",
+              "Ye disease zyadatar humid aur warm conditions mein hota hai aur plant ki growth ko severely affect karta hai.",
+              "Is disease ke symptoms mein lower leaves ke girdle area mein water-soaked lesions hoti hain jo gradually brown aur dry patches mein badal jati hain.",
+              "Severe cases mein poora plant weak ho jata hai aur grain filling ka process impact hota hai, jis se yield kam hoti hai.",
+              "Is disease ko manage karne ke liye crop rotation aur resistant rice varieties ko adopt karna zaroori hai.",
+              "Proper spacing aur water management bhi Sheath Blight ko control karne mein madadgar hota hai.",
+              "Fungicides jese ki carbendazim ya propiconazole ka timely application disease ko manage kar sakta hai."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Sheath Blight kya hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Sheath Blight ke symptoms kya hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Sheath Blight ko kaise control karte hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Sheath Blight ka ilaj batao.",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Sheath Blight kaise hota hai?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  

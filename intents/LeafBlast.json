@@ -1,0 +1,81 @@
+ 
+{
+    "name": "LeafBlast",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "LeafBlastAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Leaf blast chawal ke patton ki ek aam bimari hai jo fungus ki wajah se hoti hai.",
+              "Yeh bimari zyadatar humid aur garm mausam mein failti hai.",
+              "Symptoms mein patton par triangular brown ya gray spots aana shamil hai.",
+              "Agar yeh bimari barh jaye to yeh chawal ke yield ko kaafi kam kar sakti hai.",
+              "Is bimari ko rokne ke liye resistant chawal varieties lagayen aur fields ka pani theek se manage karein.",
+              "Fungicides ka istemal karna is bimari ke liye ek acha ilaj hai."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Leaf blast kya hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Leaf blast ke symptoms kya hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Leaf blast ka ilaj kaise karein?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Leaf blast se kaise bacha jaaye?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Leaf blast chawal ke yield ko kaise affect karta hai?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  

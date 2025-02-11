@@ -1,0 +1,79 @@
+{
+    "name": "HealthyRiceLeaf",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "HealthyRiceLeafAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Healthy rice leaf ka matlab hai ke chawal ke patton mein koi bimari nahi hai.",
+              "Healthy patton ka rang gehra hara hota hai aur inmein koi brown ya black dhabbay nahi hote.",
+              "Yeh achhe water management aur fertilizers ke sahi istemal ka nateeja hota hai.",
+              "Yeh patte photosynthesis ka process achhe se karte hain, jo overall production ko barhata hai.",
+              "Agar aapke patte healthy hain, toh chawal ki yield kaafi achhi rehne ki umeed hai."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Healthy chawal ke patton ki pehchaan kya hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Healthy rice leaf kaise dikhte hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Healthy patton ka kya fayda hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Healthy chawal ke patte banane ke liye kya karein?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Healthy chawal ke patton ka rang kaisa hota hai?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  

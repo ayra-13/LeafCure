@@ -1,0 +1,80 @@
+{
+    "name": "NarrowBrownLeafSpot",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "NarrowBrownLeafSpotAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Narrow Brown Leaf Spot chawal ke patton par honay wali ek fungal bimari hai jo Helminthosporium oryzae ki wajah se hoti hai.",
+              "Symptoms mein patton par chhoti, patli aur brown ya reddish streaks shamil hain jo gradually zyada ho jati hain.",
+              "Severe infections mein plant ki photosynthesis kam ho jati hai aur yield significant taur par gir jata hai.",
+              "Yeh bimari zyadatar high humidity aur warm temperatures mein hoti hai.",
+              "Control ke liye resistant chawal ki varieties ugane ki salah di jati hai aur fungicides ka sahi istemal karein.",
+              "Crop rotation aur field sanitation ka khayal rakhein taake fungus ka spread roka ja sake."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Narrow Brown Leaf Spot kya hoti hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Narrow Brown Leaf Spot ke symptoms kya hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Narrow Brown Leaf Spot ka ilaj kya hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Narrow Brown Leaf Spot kaise control karein?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Narrow Brown Leaf Spot chawal ki fasal ko kaise affect karta hai?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  
