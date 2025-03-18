@@ -1,0 +1,81 @@
+ 
+{
+    "name": "LeafScald",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "LeafScaldAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Leaf Scald chawal ke patton ki ek bimari hai jo zyadatar fungus Monographella albescens ki wajah se hoti hai.",
+              "Yeh bimari zyadatar humid aur garm ilaqon mein hoti hai jahan chawal ki fasal ugai jati hai.",
+              "Symptoms mein patton par white ya gray streaks jo edges se shuru hote hain aur gradually puray patte ko affect karte hain.",
+              "Severe cases mein patte murjha jate hain aur yield kam ho jati hai.",
+              "Is bimari ko rokne ke liye fungicide ka istemal karein aur crop rotation ka amal follow karein.",
+              "Flooded fields ka pani theek se manage karein taake fungus ka spread control ho."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Leaf Scald kya hoti hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Leaf Scald ke symptoms kya hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Leaf Scald ka ilaj kaise karein?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Leaf Scald se kaise bacha jaaye?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Leaf Scald chawal ke yield ko kaise affect karta hai?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  

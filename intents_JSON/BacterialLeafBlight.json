@@ -1,0 +1,80 @@
+{
+    "name": "BacterialLeafBlight",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "BacterialLeafBlightAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Bacterial leaf blight ek bimari hai jo chawal ke patton ko infect karti hai.",
+              "Yeh bimari bacterial infection ki wajah se hoti hai aur zyadatar gile mausam mein failti hai.",
+              "Symptoms mein patton ka zard ya brown hona aur unka murjh jaana shamil hai.",
+              "Yeh bimari waterlogged fields aur contaminated tools ke zariye fail sakti hai.",
+              "Iska ilaj karne ke liye copper-based fungicides ka istemal karein aur fields ka pani theek se manage karein.",
+              "Resistant varieties ka istemal is bimari ko control karne ka ek acha tareeqa hai."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Bacterial leaf blight kya hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Bacterial leaf blight ke symptoms kya hain?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Bacterial leaf blight ka ilaj kaise karein?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Bacterial leaf blight se kaise bacha jaaye?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Chawal ke patton ki bimari bacterial leaf blight kaise failti hai?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  

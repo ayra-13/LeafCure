@@ -1,0 +1,79 @@
+{
+    "name": "BrownSpot",
+    "contexts": [],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "BrownSpotAction",
+        "parameters": [
+          {
+            "name": "disease_name",
+            "dataType": "@sys.any",
+            "value": "$disease_name",
+            "required": false
+          }
+        ],
+        "messages": [
+          {
+            "type": "0",
+            "lang": "en",
+            "speech": [
+              "Brown Spot chawal ke patton aur daanay par hone wali ek aam bimari hai.",
+              "Is bimari ke symptoms patton par brown ya black dhabbay hain jo dheere dheere barhte hain.",
+              "Yeh bimari adhik nami, barish, ya nutrient deficiency ki wajah se hoti hai.",
+              "Iska ilaj: Proper fertilizer ka istemal karein, nitrogen ka level balance rakhein aur fungicides ka spray karein.",
+              "Agar symptoms barh rahe hain, apne ilaqe ke expert se mashwara zaroor karein."
+            ]
+          }
+        ]
+      }
+    ],
+    "events": [],
+    "userSays": [
+      {
+        "data": [
+          {
+            "text": "Brown spot chawal ke patton par kaise hota hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Mujhe chawal ke patton par brown dhabbay nazar aa rahe hain, kya karein?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Brown spot ka ilaj kya hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Brown spot chawal ki yield par kya asar dalta hai?",
+            "userDefined": false
+          }
+        ]
+      },
+      {
+        "data": [
+          {
+            "text": "Yeh bimari kis mausam mein zyada hoti hai?",
+            "userDefined": false
+          }
+        ]
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": false,
+    "fallbackIntent": false,
+    "events": []
+  }
+  

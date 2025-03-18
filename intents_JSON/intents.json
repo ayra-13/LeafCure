@@ -1,0 +1,268 @@
+{
+  "intents": [
+    {
+      "tag": "salam",
+      "patterns": [
+        "Aoa",
+        "Hello",
+        "Hi",
+        "Salam",
+        "Asalam o Alaikum",
+        "Salam Alaikum",
+        "Greetings"
+      ],
+      "responses": [
+        "Waslam, mein apki kiya madad karsakta hun?",
+        "Hello, yahan ane ka shukria! Mein apki kiya madad karsakta hun?",
+        "Hello, mein apke liye kiya karsakta hun?",
+        "Hello, kiya apko madad chiye? Mein apki kiya madad karsakta hun?",
+        "Asalam o Alaikum! Mein apki kiya madad karsakta hun?",
+        "Aoa! Kiya apko madad chahiye?",
+        "Salam, aap kaise hain?",
+        "Hello, aapko kis cheez ki madad chahiye?",
+        "Greetings! Kiya mein apki madad kar sakta hoon?",
+        "Aoa, kis cheez ke liye madad chahiye?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Allah Hafiz",
+        "goodbye",
+        "Khuda Hafiz",
+        "See you later",
+        "Take care",
+        "Goodbye, see you soon"
+      ],
+      "responses": [
+        "Allah Hafiz, apki madad kar keh khushi hui!",
+        "Khuda Hafiz.",
+        "Khuda Hafiz, wapis zaroor ayega!",
+        "Take care, have a nice day!",
+        "Goodbye, Allah ka shukriya!",
+        "Allah Hafiz, apka din acha guzre!",
+        "Khuda Hafiz, apki madad ka intezar rahega!",
+        "Take care, phir milenge!",
+        "Goodbye, enjoy the rest of your day!",
+        "Allah Hafiz, agle dafa milte hain!"
+      ]
+    },
+    {
+      "tag": "shukria",
+      "patterns": [
+        "Shukria",
+        "Thank you",
+        "Thanks",
+        "Shukriya",
+        "Thank you so much",
+        "I appreciate it",
+        "Many thanks"
+      ],
+      "responses": [
+        "Apki madad karkeh khushi hui!",
+        "Koi baat nae!",
+        "Aapka shukriya!",
+        "Mujhe madad kar ke acha laga!",
+        "Shukriya, aapka din accha ho!",
+        "Koi baat nahi, humesha madad ke liye tayar hoon!",
+        "Thank you for your trust!",
+        "Appreciate it, humesha madad ke liye ready hoon!",
+        "Thank you, aapki madad ka shukriya!",
+        "Shukriya, apki madad ke liye shukriya!"
+      ]
+    },
+    {
+      "tag": "bacterial_leaf_blight",
+      "patterns": [
+        "Bacterial leaf blight kiya hai?",
+        "Bacterial leaf blight kis wajah se hota hai?",
+        "Bacterial Pata Jalna kya hai?",
+        "Bacterial leaf blight ke symptoms kya hain?",
+        "Is beemari ke symptoms kya hain?",
+        "Bacterial leaf blight k rok tham keh bare mein btayein",
+        "Bacterial leaf blight ke ilaj ke tareeqay kya hain?"
+      ],
+      "responses": [
+        "Bacterial leaf blight bacteria Xanthomonas oryzae ki wajah se hoti hai. Ye bimari patton ko peela aur sukhne ka sabab banti hai, aur paidawar ko nuqsan pohchati hai.",
+        "Symptoms: Patton ka peela hona, jalna, aur murjhane lagna.",
+        "Wajuhaat: Zyada barish aur humidity, beemari se mutasir seeds, zyada nitrogen khaad, pani ka jamav aur drainage ki kami.",
+        "Rok Tham: Mazahmati chawal ki varieties lagayen, mutawazan khaad ka istemal karein, khet ki sahi drainage ka intezam karein, aur preventive sprays lagayein.",
+        "Bacterial leaf blight ka ilaj: Fungicide ka istemal, patton ki safai, aur zyada nitrogen khaad ka istemal na karein.",
+        "Ye bimari jaldi phailti hai, is liye early detection zaroori hai.",
+        "Symptoms mein patton par safed ya peele dhabbay nazar aate hain.",
+        "Bacterial leaf blight ka ilaj karne ke liye fungicides ka istemal karein.",
+        "Sahi drainage aur watering practices se beemari ka khatra kam ho sakta hai.",
+        "Zyada moisture aur humidity se bacterial leaf blight ka khatra badhta hai."
+      ]
+    },
+    {
+      "tag": "brown_spot",
+      "patterns": [
+        "Brown spot ki pehchan kaise hoti hai?",
+        "Bhoora Dhaba ke symptoms kya hain?",
+        "Brown spot ki wajuhat kiya hain?",
+        "Brown spot ke ilaj ke tareeqay kya hain?",
+        "Brown spot kya hai?",
+        "Brown spot ki wajah kya hai?",
+        "Brown spot ke ilaj ka tareeqa batao"
+      ],
+      "responses": [
+        "Brown Spot fungus Bipolaris oryzae ki wajah se hoti hai jo patton par bhure dhabbay banata hai. Ye bimari daanay aur paidawar ko nuqsan pohchati hai.",
+        "Symptoms: Patton par bhure dhabbay aur fasal ki paidawar ka kam hona.",
+        "Wajuhaat: Kamzoor zameen, nitrogen aur potassium ki kami, beemari zada seeds ka istemal, high humidity aur temperature.",
+        "Rok Tham: Certified aur mazahmati seeds lagayen, potash aur phosphorus khaad ka istemal karein, fungal infections ke liye fungicides ka spray karein, aur proper irrigation ka intezam karein.",
+        "Brown Spot ka ilaj: Fungicide spray, khaad ka sahi istemal aur beemari se mutasir podon ki safai.",
+        "Patton ke neeche wale hisson mein dhabbay nazar aate hain.",
+        "Brown spot ka ilaj karne ke liye fungicides ka spray zaroori hai.",
+        "Zyada humidity aur poor air circulation brown spot ko barhate hain.",
+        "Beemari ko rokne ke liye daanay ki safai aur quality ka khayal rakhein.",
+        "Patton par brown spots ka hona, fasal ki performance ko kam kar sakta hai."
+      ]
+    },
+    {
+      "tag": "healthy_rice_leaf",
+      "patterns": [
+        "Sehatmand chawal ke patte kaise hote hain?",
+        "Healthy rice leaf ki nishaniyan kya hain?",
+        "Healthy chawal ka patta kaise lagta hai?",
+        "Sehatmand chawal ke patte ki pehchan kaise ho sakti hai?",
+        "Rice leaf health ki pehchan kaise karein?",
+        "Sehatmand chawal patte ki khasoosiyat kya hain?",
+        "Healthy rice leaf kaise nazar aata hai?"
+      ],
+      "responses": [
+        "Sehatmand chawal ke patte hare, chamakdar aur fasal ki achi sehat ka izhar karte hain.",
+        "Sehatmand patte achi zarai practices, munasib khaad, aur sahi waqt par aabpashi ka nateeja hote hain.",
+        "Healthy leaves usually have a vibrant green color and are free of diseases.",
+        "Sehatmand patte ke upar koi bhi dhabbay ya jhulas nahi hote.",
+        "Sehatmand chawal ka patta zyada lamba aur chamakdaar hota hai.",
+        "Agar patte safed ya peele ho rahe hain to ye bimari ki nishani ho sakti hai.",
+        "Sehatmand chawal ke patte mein koi fungus ya insect damage nahi hoti.",
+        "Rice leaves with dark green color are usually an indication of good health.",
+        "Healthy leaves are necessary for proper photosynthesis and crop yield.",
+        "Sehatmand chawal ke patte ki achi nazar se paidawar bhi behtar hoti hai."
+      ]
+    },
+    {
+      "tag": "leaf_scald",
+      "patterns": [
+        "Leaf scald ke symptoms aur ilaj kya hain?",
+        "Patte ka Jhulasna kaise hota hai?",
+        "Leaf scald ka ilaj kya hai?",
+        "Is bimari ki wajuhat aur rok tham kya hai?",
+        "Leaf scald ki wajah kya hai?",
+        "Patte ka Jhulasna kaise hota hai?",
+        "Leaf scald ke symptoms kaise pehchanein?"
+      ],
+      "responses": [
+        "Leaf Scald fungus Microdochium oryzae ki wajah se hoti hai. Ye bimari patton par bhuray dharian banati hai jo jalne aur murjhane ka sabab banti hain.",
+        "Wajuhaat: High humidity, contaminated seeds, pani ka jamav, aur poor air circulation.",
+        "Rok Tham: Khet ki sahi drainage ka intezam karein, mazahmati seeds lagayen, sprays ka istemal karein, aur proper spacing ko follow karein.",
+        "Symptoms: Patton par brown spots aur water-soaked lesions ka hona.",
+        "Leaf scald ko control karne ke liye fungicides ka istemal karein.",
+        "Humidity control aur air circulation se is bimari ko roka ja sakta hai.",
+        "Roktham ke liye healthy seeds aur proper irrigation practices ka istemal karen.",
+        "Zyada moisture se leaf scald ka khatra barh jata hai.",
+        "Leaf scald ka ilaj karnay ke liye sprays aur fungicides ka istemal zaroori hai.",
+        "Patton par dry aur crispy lesions leaf scald ki pehchan hain."
+      ]
+    },
+    {
+      "tag": "narrow_brown_leaf_spot",
+      "patterns": [
+        "Narrow Brown Leaf Spot ki pehchan batao.",
+        "Tang Bhura Patta Dhaba ke ilaj ke tareeqay kya hain?",
+        "Is beemari ka ilaj kya hai?",
+        "Narrow Brown Leaf Spot ke ilaj ke tareeqay kya hain?",
+        "Narrow Brown Leaf Spot ki wajah kya hai?",
+        "Narrow brown leaf spot symptoms kaise pehchanein?",
+        "Narrow Brown Leaf Spot ko kaise roka jaye?"
+      ],
+      "responses": [
+        "Narrow Brown Leaf Spot fungus Cercospora oryzae ki wajah se hoti hai. Ye bimari patton par tang bhuray dharian banati hai aur photosynthesis ko mutasir karti hai.",
+        "Wajuhaat: Beemari zada seeds, poor drainage, nitrogen aur potassium ki kami, aur high humidity.",
+        "Rok Tham: Mutawazan khaad ka istemal karein, mazahmati seeds lagayen, patton ki safai karein, aur sprays ka istemal karein.",
+        "Symptoms: Patton par narrow brown spots ka hona.",
+        "Narrow Brown Leaf Spot ko rokne ke liye fungicides ka spray zaroori hai.",
+        "Zyada nitrogen aur potassium ka istemal bhi is bimari ko barhata hai.",
+        "Proper spacing aur drainage ko ensure karke is bimari ko control kiya ja sakta hai.",
+        "Early stage mein proper management se is bimari ko control kiya ja sakta hai.",
+        "Pest management aur irrigation practices ka bhi is bimari par asar hota hai.",
+        "Narrow Brown Leaf Spot se fasal ki paidawar par nuqsan hota hai."
+      ]
+    },
+    {
+      "tag": "rice_hispa",
+      "patterns": [
+        "Rice Hispa kya hai?",
+        "Rice Hispa ke symptoms kiya hain?",
+        "Rice Hispa ke ilaj ke tareeqay kya hain?",
+        "Rice Hispa ko kaise roka jaye?",
+        "Rice Hispa ki wajah kya hai?",
+        "Rice Hispa ke liye insecticides ka istemal karna hai?",
+        "Rice Hispa kaise control karein?"
+      ],
+      "responses": [
+        "Rice Hispa ek chhota insekt hai jo chawal ke patton ko nuqsan pohchata hai. Ye patton ko kaat kar unhe kamzor kar deta hai.",
+        "Symptoms: Patton par kaat ke nishan, yellowing, aur dekhte hi dekhte paidawar ka kam ho jaana.",
+        "Wajuhaat: Poor irrigation, moisture imbalance, aur zyada crop residues.",
+        "Rok Tham: Rice Hispa se bachne ke liye proper pest management, timely sprays aur insecticides ka istemal kiya jata hai.",
+        "Rice Hispa ka ilaj: Insecticides ka spray aur pest management ka sahi istemal zaroori hai.",
+        "Proper irrigation practices aur timely monitoring se Rice Hispa ka khatra kam ho sakta hai.",
+        "Rice Hispa ke liye early detection aur timely control zaroori hai.",
+        "Iske symptoms mein leaf tips par yellowing aur leaf damage hota hai.",
+        "Rice Hispa ki wajah se fast crop loss ho sakta hai.",
+        "Rice Hispa ko control karne ke liye effective pest control techniques istemal karen."
+      ]
+    },
+    {
+      "tag": "sheath_blight",
+      "patterns": [
+        "Sheath Blight kya hai?",
+        "Sheath Blight ke symptoms kiya hain?",
+        "Sheath Blight ke ilaj ke tareeqay kya hain?",
+        "Sheath Blight ko kaise roka jaye?",
+        "Sheath Blight ki wajah kya hai?",
+        "Sheath Blight ka ilaj kis tarah se hota hai?",
+        "Sheath Blight ke liye fungicides ka istemal karna hai?"
+      ],
+      "responses": [
+        "Sheath Blight fungus Rhizoctonia solani ki wajah se hota hai. Ye chawal ki fasal ke patton ko kamzor kar leta hai.",
+        "Symptoms: Patton ke sheaths par brown aur water-soaked lesions ka hona.",
+        "Wajuhaat: Poor irrigation, high humidity, aur contaminated seeds.",
+        "Rok Tham: Fungicides ka istemal karein aur patton ko time par clear karein.",
+        "Sheath Blight ka ilaj: Fungicides ki spraying, proper spacing aur irrigation.",
+        "Proper spacing aur irrigation practices se Sheath Blight ka khatra kam ho sakta hai.",
+        "Is bimari ko rokhne ke liye high density planting se bachna chahiye.",
+        "Sheath Blight ko control karne ke liye effective fungicides zaroori hain.",
+        "Early detection aur timely fungicide application Sheath Blight ko rok sakti hai.",
+        "Sheath Blight ka ilaj karke aap apni fasal ko safe kar sakte hain."
+      ]
+    },
+    {
+      "tag": "tungro_virus",
+      "patterns": [
+        "Tungro Virus kya hai?",
+        "Tungro Virus ke symptoms kiya hain?",
+        "Tungro Virus ka ilaj kaisa hai?",
+        "Tungro Virus ke liye treatment kya hai?",
+        "Tungro Virus ko kaise roka jaye?",
+        "Tungro Virus ki wajah kya hai?",
+        "Tungro Virus ke liye kaunsa fungicide istemal karen?"
+      ],
+      "responses": [
+        "Tungro Virus ek deadly virus hai jo chawal ke patton ko affect karta hai.",
+        "Symptoms: Patton par yellowing, leaf distortion aur growth restriction ka hona.",
+        "Wajuhaat: Tungro virus ka spread mainly insects, jaise ke leafhoppers ke through hota hai.",
+        "Rok Tham: Tungro Virus ko insects se bacha kar, aur resistant varieties ko use karke roka ja sakta hai.",
+        "Tungro Virus ka ilaj: Insecticides ka istemal aur resistant varieties lagana zaroori hai.",
+        "Virus ko control karne ke liye timely pesticide application zaroori hai.",
+        "Tungro Virus ka spread zyada barish aur humidity ke dauran hota hai.",
+        "Infected plants ko jaldi se identify karke unhe remove karna chaahiye.",
+        "Tungro Virus se bachaav ke liye integrated pest management zaroori hai.",
+        "Tungro Virus ko control karne ke liye healthy and resistant varieties zaroori hain."
+      ]
+    }
+  ]
+}
