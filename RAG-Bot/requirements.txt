@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-community
+langchain-cohere
+langchain-groq
+chromadb
+cohere
+pydantic
+sqlite3
+python-dotenv
+tiktoken
+PyPDF2
